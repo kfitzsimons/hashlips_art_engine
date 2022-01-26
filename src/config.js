@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 25,
     layersOrder: [
       { name: "backgrounds" },
       { name: "skins" },
@@ -44,9 +44,10 @@ const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
+// NFT BG: 1848 × 2546
 const format = {
-  width: 512,
-  height: 512,
+  width: 1848,
+  height: 2546,
   smoothing: false,
 };
 
